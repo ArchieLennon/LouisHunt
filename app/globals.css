@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: halogen;
+  src: url('/fonts/HalogenV1-Black.woff') format('woff');
+
+}
+
+@theme {
+  --font-halogen: halogen , "sans-serif"; 
+
+}
