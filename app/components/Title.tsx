@@ -16,6 +16,7 @@ export default function Title({ textCol }: { textCol: TextColProps }) {
         className="flex flex-row space-x-4"
         style={{ "--hover-color": textCol.textColour?.hex } as React.CSSProperties }
       >
+        <h1>Contact</h1>
         <Link
         href={"mailto:Louisdhunt@gmail.com"}
         className="hover:text-(--hover-color) transition-colors duration-300 cursor-pointer">
