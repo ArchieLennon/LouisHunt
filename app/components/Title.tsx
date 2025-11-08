@@ -13,7 +13,7 @@ export default function Title({ textCol }: { textCol: TextColProps }) {
       <h1>Louis Hunt Type & Graphic Design Services</h1>
 
       <div
-        className="flex flex-row space-x-4"
+        className="flex flex-row space-x-1.5"
         style={{ "--hover-color": textCol.textColour?.hex } as React.CSSProperties }
       >
         <h1>Contact</h1>
