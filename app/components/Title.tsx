@@ -18,7 +18,7 @@ export default function Title({ textCol }: { textCol: TextColProps }) {
       >
         <h1>Contact</h1>
         <Link
-        href={"mailto:Louisdhunt@gmail.com"}
+        href={"mailto:louisdhunt@gmail.com"}
         className="hover:text-(--hover-color) transition-colors duration-300 cursor-pointer">
           Email
         </Link>
